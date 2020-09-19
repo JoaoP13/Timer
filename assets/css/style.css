@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(13, 99, 73);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mostrador {
+  font-size: 65px;
+  margin-top: 0px;
+  margin-block-end: 0px;
+}
+
+.mostradorPausado {
+  font-size: 65px;
+  margin-top: 0px;
+  margin-block-end: 0px;
+  color: red;
+}
+
+.botao {
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 15px;
+  padding: 14px;
+  margin: 0 0 25px 25px;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.botaoIniciar {
+  background-color: white;
+  color:green;
+  box-shadow: inset 0 0 0 3px green;
+}
+
+.botaoIniciar:hover {
+  background-color: green;
+  color: white;
+}
+
+.botaoPausar {
+  background-color: white;
+  color:red;
+  box-shadow: inset 0 0 0 3px red;
+}
+
+.botaoPausar:hover {
+  background-color: red;
+  color: white;
+}
+
+.botaoZerar {
+  background-color: white;
+  color:black;
+  box-shadow: inset 0 0 0 3px black;
+}
+
+.botaoZerar:hover {
+  background-color: black;
+  color: white;
+}
