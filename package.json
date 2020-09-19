@@ -1,0 +1,23 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "Uma página WEB que funciona como um marcador temporal, feita utilizando JavaScript, HTML e CSS. Exercita fundamentalmente a manipulação de eventos do clique do mouse e utilização correta do objeto Date.",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node servidor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoP13/Timer.git"
+  },
+  "author": "João Paulo Gonçalves de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoP13/Timer/issues"
+  },
+  "homepage": "https://github.com/JoaoP13/Timer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
